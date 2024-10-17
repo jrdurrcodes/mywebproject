@@ -1,5 +1,16 @@
 *{ box-sizing: border-box;}
 
+.icon {
+    color:black;
+}
+
+.projects {
+    font-size: 7rem;
+    font-style: ;
+}
+
+
+
 #bannerSection {
     background-color: brown;
     background-image: url("../images/IMG_8403.JPEG");
