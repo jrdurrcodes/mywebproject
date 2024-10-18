@@ -1,17 +1,58 @@
 *{ box-sizing: border-box;}
 
+:root {
+    --font1: "Arsenal SC", sans-serif;
+    --font2: "Sofia Sans", sans-serif;
+    --bg: #effdcf;
+    --green1: #DEEFB7;
+    --green2: #C8DD96;
+    --green3: #9BB55F;
+    --green4: #728740;
+    --green5: #56682C;
+}
+
+#headerSection {
+    background-color: var(--green3)
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.section {
+    padding: 50px 0;
+}
+
 .icon {
     color:black;
 }
 
 .projects {
     font-size: 7rem;
-    font-style: ;
 }
-
 
 
 #bannerSection {
     background-color: brown;
     background-image: url("../images/IMG_8403.JPEG");
+}
+
+.banner-img {
+    height: 10vh;
+}
+
+.main-nav-link {
+    font-family: var(--font1);
+}
+
+.card-color { 
+    background-color: var(--green2);
+}
+
+#aboutSection {
+    background-color: white;
+}
+
+#footerSection {
+    background-color: var(--green3);
 }

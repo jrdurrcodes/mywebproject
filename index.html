@@ -3,222 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>mywebproject</title>
+    <title>myportfolio</title>
 </head>
 <body>
-    <header class="header" id="header">
-        <section class="section" id="headerSection1">
-            <div class="container">
+<header>
+        <section id="headerSection">
+            <div class="container"> 
                 <div class="row">
-                    <nav class="social-nav btn-dark" id="top">
-                        <ul class="social-list nav-list nav justify-content-end" id="topSocialList">
-                            <li class="social-item nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="bi bi-facebook" class="icon"></i>
-                                    <span class="visually-hidden">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="social-item nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="bi bi-linkedin" class="icon"></i>
-                                    <span class="visually-hidden">Linkedin</span>
-                                </a>
-                            </li>
-                            <li class="social-item nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="bi bi-twitter" class="icon"></i>
-                                    <span class="visually-hidden text-capitalize">twitter</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </section>
-    </header>
-        <section class="section" id="headerSection2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/IMG_0005.JPG" alt="salon logo" class="img-fluid w-50">
+                    <div class="col-md-4 d-none d-lg-flex">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <h1 class="main-heading">Dr. Janjala Durr</h1>
+                        </a>
                     </div>
                     <div class="col-md-8">
-                        <div class="drop-down-div d-lg-none">
-                            <div class="dropdown text-center text-sm-end">
-                                <button
-                                class="btn dropdown-btn dropdown-toggle"
-                                type="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                                >Select Tab</button>        >
-                                <ul class="dropdown-menu text-uppercase">
-                                    <li>
-                                        <a href="#" class="dropdown-item">home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html" class="dropdown-item">about</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown-item">projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown-item">contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <nav class="nav d-none d-lg-flex main-nav justify-content-lg-end" id="mainNav">
-                            <a href="#"class="nav-link main-nav-link text-uppercase text-dark">home</a>
-                            <a href="#"class="nav-link main-nav-link text-uppercase text-dark">about<a>                     
-                            <a href="#"class="nav-link main-nav-link text-uppercase text-dark">projects<a>                   
-                            <a href="#"class="nav-link main-nav-link text-uppercase text-dark">contact</a>
+                        <nav class="nav nav-underline d-none d-lg-flex main-nav justify-content-lg-end" id="mainNav">
+                            <a href="#aboutSection"class="nav-link main-nav-link text-uppercase text-dark">about<a>                     
+                            <a href="#projectSection"class="nav-link main-nav-link text-uppercase text-dark">projects<a>                   
+                            <a href="#footer"class="nav-link main-nav-link text-uppercase text-dark">contact</a>
                         </nav>
                     </div>
                 </div>
+            </section>
+        <section id="headerSection">
+            <div class="container">
+                <nav class="navbar d-lg-none navbar-expand-lg">
+                    <a href="index.html" class="navbar-brand">Dr. Janjala Durr</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttonCollapse" aria-controls="buttonCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="buttonCollapse">
+                        <div class="navbar-nav">
+                            <a href="#aboutSection" class="text-decoration-none text-dark">About</a>
+                            <a href="#projectSection" class="text-decoration-none text-dark">Project</a>
+                            <a href="#footerSection" class="text-decoration-none text-dark">Contacts</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </section>
+    </header>
     <main class="main" id="main">
         <section class="section" id="bannerSection">
             <div class="container img-fluid ">
                 <div class="row">
                     <div class="col">
                     <h1 class="text-center">"Dominate Everyday"</h1>
-                    <img src="images/IMG_0005 (2).JPG" class="img-fluid w-50 d-block mx-auto" alt="various pictures">
+                    <img src="https://via.placeholder.com/50x50" class="img-fluid w-50 d-block mx-auto banner-img" alt="various pictures">
                 </div>
             </div>
         </section>
-        <section class="section" id="figureSection">        
-                <div class="container">
-                    <div class="row gy-3">
-                        <div class="col-md-4">
-                            <figure class="figure my-figure">
-                                <img src="placeholder" alt="womens empowerment community" class="img=fluid w-100 figure-img">
-                                <h2 class="figure-heading text-dark text-uppercase">dominion heiress</h2>
-                                <figcaption class="figure-caption ps-2">empowering through education, fellowship and accountability</figcaption>
-                            </figure>   
-                        </div>
-                        <div class="col-md-4">
-                            <figure class="figure my-figure">
-                                <img src="placeholder" alt="pictures of salon work" class="img=fluid w-100 figure-img">
-                                <h2 class="figure-heading text-dark text-uppercase"> next level salon</h2>
-                                <figcaption class="figure-caption ps-2">beautifying the crown</figcaption>
-                            </figure>   
-                        </div>
-                        <div class="col-md-4">
-                            <figure class="figure my-figure">
-                                <img src="placeholder" alt="pictures of garden" class="img=fluid w-100 figure-img">
-                                <h2 class="figure-heading text-dark text-uppercase">heiress urban ag & forestry</h2>
-                                <figcaption class=" figure-caption ps-2">rebuilding family legacy through farming</figcaption>
-                            </figure>
-                        </div>  
-                    </div>            
-                </div>
-            </div>
-        </section> 
         <section class="section" id="aboutSection">
             <div class="container mb-5">
                 <div class="row">
                     <h2 class="figure-heading text-dark text-uppercase text-center">about me</h2>
                     <div class="col-md-6">
                         <figure class="fig my-figure">
-                            <img src="my head shot" alt="image of me in coding class" class="img=fluid w-100 figure img">
+                            <img src="https://via.placeholder.com/50x50" alt="image of me in coding class" class="img=fluid w-100 figure img">
                         </figure>
-                        </div>
-                    <div class="col-md-6 text-justify">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nihil, nemo fugiat pariatur repellendus aspernatur sequi architecto, doloremque suscipit aut corrupti nesciunt ut rerum ducimus odio cumque obcaecati ad amet adipisci sunt molestiae recusandae reprehenderit sint. Ad, sed eos blanditiis repellendus accusamus nam vero deleniti reiciendis! Cumque reprehenderit consequatur aut.</p>
                     </div>
-                </div>    
-            </div>
-        </section>  
-        <div class="projects w-100 d-flex justify-content-center text-uppercase text-dark ">
-            <h2>projects</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card lead-items">
-                        <img src="images/Screenshot (1).png" 
-                        alt="placeholder img" class="img-fluid image card-img w-75"/>
-                        <div class="card-body">
-                            <h2 class="display-1">Lorem, ipsum.</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet     
-                            consectetur adipisicing elit. Quam, qui!</p>
-                            <a href="https://jrdurrcodes.github.io/scamazon/"target="_blank" class="btn btn-dark">live</a>
-                            <a href="https://github.com/jrdurrcodes/scamazon"target="_blank" class="btn btn-dark">code</a>
-                        </div>
+                    <div class="col-md-6">
+                        <p>Dr. Janjala Durr native of Mississippi, is a Hair Stylist, Motivational Enthusiat, Urban Farmer and Junior Developer.  With twenty-four years under her belt as a Barber Stylist, twon and a half years as a farmer, she decided to pivot her career to webpage development. Her goals  are to strive to better each day.  Dr. Durr's desire is not just to keep this knowledge that she has acquired to herself yet to utilize what she has learned to empower others to seek more knowledge. It is also her hopes to inspire the people she encounters to never be satisfied with being mediocre.  Through time, discipline and consistency she believes that all things are possible when one believes in themself.  Dr. Durr plans to form her own non-profit as well as create future employment opportunites in various fields that she has been serving in for over 24 years. </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card lead-items">
-                        <img src="photo of project" 
-                        alt="placeholder img" class="img-fluid image card-img  w-75"/>
-                        <div class="card-body">
-                            <h2 class="display-1">Lorem, ipsum.</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet     
+                <div class="figure-box pt-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <figure class="figure my-figure">
+                                <img src="https://via.placeholder.com/50x50" alt="womens empowerment community" class="img-fluid w-100 figure-img">
+                            <h2 class="figure-heading text-dark text-uppercase">dominion heiress</h2>
+                                        <figcaption class="figure-caption ps-2">empowering through education, fellowship and accountability</figcaption>
+                                    </figure>   
+                                </div>
+                                <div class="col-md-3">
+                                    <figure class="figure my-figure">
+                                        <img src="https://via.placeholder.com/50x50" alt="pictures of salon work" class="img-fluid w-100 figure-img">
+                                        <h2 class="figure-heading text-dark text-uppercase"> next level salon</h2>
+                                        <figcaption class="figure-caption ps-2">beautifying the crown</figcaption>
+                                    </figure>   
+                                </div>
+                                <div class="col-md-3">
+                                    <figure class="figure my-figure">
+                                        <img src="https://via.placeholder.com/50x50" alt="pictures of garden" class="img-fluid w-100 figure-img">
+                                        <h2 class="figure-heading text-dark text-uppercase">heiress urban ag & forestry</h2>
+                                        <figcaption class=" figure-caption ps-2">rebuilding family legacy through farming</figcaption>
+                                    </figure>
+                                </div>  
+                    </div>
+                </div>
+                </div>
+        </section>  
+        <section class="section" id="projectSection">
+            <div class="projects w-100 d-flex justify-content-center text-uppercase text-dark ">
+                <h2>projects</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 g-4">
+                        <div class="card lead-items">
+                            <img src="images/scamazon.png" 
+                            alt="placeholder img" class="img-fluid image card-img w-100"/>
+                            <div class="card-body card-color">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet     
                                 consectetur adipisicing elit. Quam, qui!</p>
-                                <div class="col-md-6">
+                                <a href="https://jrdurrcodes.github.io/scamazon/"target="_blank" class="btn btn-dark">live</a>
+                                <a href="https://github.com/jrdurrcodes/scamazon"target="_blank" class="btn btn-dark">code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-4">
+                        <div class="card lead-items">
+                            <img src="images/bloom.png" 
+                            alt="placeholder img" class="img-fluid image card-img  w-100"/>
+                            <div class="card-body card-color">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet     
+                                    consectetur adipisicing elit. Quam, qui!</p>
+                                    <div class="col-md-6">
+                                    <a href=""target="_blank" class="btn btn-dark">live</a>
+                                    <a href=""target="_blank" class="btn btn-dark">code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-4">
+                        <div class="card lead-items">
+                            <img src="images/detroix.png" 
+                            alt="placeholder img" class="img-fluid image card-img w-100"/>
+                            <div class="card-body card-color">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet     
+                                consectetur adipisicing elit. Quam, qui!</p>
+                                <a href=""target="_blank" class="btn btn-dark">live</a>
+                                <a href=""target="_blank" class="btn btn-dark">code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-4">
+                        <div class="card lead-items">
+                            <img src="images/restaurant.png" 
+                            alt="placeholder img" class="img-fluid image card-img w-100"/>
+                            <div class="card-body card-color">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet     
+                                consectetur adipisicing elit. Quam, qui!</p>
                                 <a href=""target="_blank" class="btn btn-dark">live</a>
                                 <a href=""target="_blank" class="btn btn-dark">code</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card lead-items">
-                        <img src="photo of project" 
-                        alt="placeholder img" class="img-fluid image card-img w-75"/>
-                        <div class="card-body">
-                            <h2 class="display-1">Lorem, ipsum.</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet     
-                            consectetur adipisicing elit. Quam, qui!</p>
-                            <a href=""target="_blank" class="btn btn-dark">live</a>
-                            <a href=""target="_blank" class="btn btn-dark">code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card lead-items">
-                        <img src="photo of project" 
-                        alt="placeholder img" class="img-fluid image card-img w-75"/>
-                        <div class="card-body">
-                            <h2 class="display-1">Lorem, ipsum.</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet     
-                            consectetur adipisicing elit. Quam, qui!</p>
-                            <a href=""target="_blank" class="btn btn-primary">live</a>
-                            <a href=""target="_blank" class="btn btn-primary">code</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
+        </section>
     </main>
         <footer class="footer" id="footer">
             <section class="section" id="footerSection">
                 <div class="container">
                     <div class="row">
                         <nav class="social-nav" id="bottom">
-                            <ul class="social-list nav-list nav justify-content-end btn-dark" id="bottomSocialList">
+                            <ul class="social-list nav-list nav justify-content-end" id="bottomSocialList">
                                 <li class="social-item nav-item">
                                     <a href="#" class="nav-link">
-                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-facebook icon"></i>
                                         <span class="visually-hidden">Facebook</span>
                                     </a>
                                 </li>
                                 <li class="social-item nav-item">
                                     <a href="#" class="nav-link">
-                                        <i class="bi bi-linkedin"></i>
+                                        <i class="bi bi-linkedin icon"></i>
                                         <span class="visually-hidden">Linkedin</span>
                                     </a>
                                 </li>
                                 <li class="social-item nav-item">
                                     <a href="#" class="nav-link">
-                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-twitter icon"></i>
                                         <span class="visually-hidden text-capitalize">twitter</span>
                                     </a>
                                 </li>
@@ -228,6 +192,6 @@
                 </div>
             </section>
         </footer>
+    </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
 </html>
