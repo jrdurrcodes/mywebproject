@@ -11,45 +11,12 @@
     --green5: #56682C;
 }
 
-#headerSection {
-    background-color: var(--green3)
-}
-
 body {
     background-color: var(--bg);
 }
 
-.section {
-    padding: 50px 0;
-}
-
-.icon {
-    color:black;
-}
-
-.projects {
-    font-size: 7rem;
-}
-
-.project-text{
-    font-size: 150%;
-    
-}
-
-#bannerSection {
-    background-color: brown;
-    background-image: url("../images/pinetree.jpg");
-    background-position: center;
-    background-size: cover;
-    
-}
-
 .banner-img {
     height: 50vh;
-}
-
-.main-nav-link {
-    font-family: var(--font1);
 }
 
 .card-color { 
@@ -60,12 +27,43 @@ body {
     font-size: 100%;
 }
 
+.icon {
+    color:black;
+}
+
+.main-nav-link {
+    font-family: var(--font1);
+}
+
+.projects {
+    font-size: 7rem;
+}
+
+.project-text {
+    font-size: 150%;
+}
+
+.section {
+    padding: 50px 0;
+}
+
 #aboutSection {
     background-color: white;
     margin-top: 75px;
 }
 
+#bannerSection {
+    background-color: brown;
+    background-image: url("../images/pinetree.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 #footerSection {
     background-color: var(--green3);
     padding: 10px;
+}
+
+#headerSection {
+    background-color: var(--green3);
 }
