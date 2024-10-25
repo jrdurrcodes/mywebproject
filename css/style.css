@@ -63,14 +63,17 @@ body {
     padding: 50px 0;
 }
 
-.tree-img {
-    height: 70vh;
+.headshot {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
 }
+
 
 .tree-text {
     font-family: var(--font3);
     font-size: 100px;
-    color: #aad576;
+    color: #fff;
     text-shadow: 3px 3px black ;
 
 }
