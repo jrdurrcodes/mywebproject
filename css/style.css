@@ -45,6 +45,7 @@ body {
     font-family:var(--font3) ;
     font-weight: 150%;
 }
+
 .main-nav-link {
     font-family: var(--font1);
 }
@@ -74,7 +75,7 @@ body {
     font-family: var(--font3);
     font-size: 100px;
     color: #fff;
-    text-shadow: 3px 3px black ;
+    text-shadow: 3px 3px rgb(10, 9, 9) ;
 
 }
 
