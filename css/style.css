@@ -77,6 +77,12 @@ body {
     text-shadow: 3px 3px rgb(10, 9, 9) ;
 }
 
+@media only screen and (max-width: 600px) {
+    .tree-text {
+        font-size: 56px;
+    }
+}
+
 #aboutSection {
     background-color: white;
     margin-top: 75px;
